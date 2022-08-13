@@ -1,0 +1,49 @@
+# this is how you comment with a hash and a space 
+# strings are always typed inside " " 
+# the variable values can be adjusted whenever to change the output it prints 
+# print() function is used to print 
+
+character_name = "Dee"
+character_age= "20"
+print("my name is" + character_name + ",") # the part which has the comma will make sure that the variable value gets printed there 
+print("age " + character_age + ",")
+is_old = True # this how you assign boolean values and it's not exactly used here
+
+
+
+
+##to just print out a string 
+phrase = "Girl on fire"
+print(phrase + " is cool")
+
+##you can also add fuctions to the end of the variable to change the string or get some kinda output from it 
+phrase = "Girl on fire"
+print(phrase.lower()) # outputs phrase in lower case 
+
+##
+phrase = "Girl on fire"
+print(phrase.isupper()) # would check if phrase is upper then would return either true or false
+
+#you can also combine two functions for example,
+phrase = "Girl on fire"
+print(phrase.upper().isupper()) #this would turn phrase into uppercase and then run the next function which then would return true 
+
+##you can find the legth of phrase by 
+phrase = "Girl on fire"
+print(lenphrase)
+
+##you can find the letter of a certain index by
+phrase = "Girl on fire"
+print(phrase[0])#this returns G becuase in python the first postion is 0
+
+##you can find out the index of cetrain letter by
+phrase = "Girl on fire"
+print(phrase.index("G")) #this would return 0
+
+##or you can replce words or letters 
+phrase = "Girl on fire"
+print(phrase.replace("girl","boy")) this would return boy on fire 
+
+
+
+
