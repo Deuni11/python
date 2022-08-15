@@ -1,0 +1,20 @@
+# you can just print numbers without " "
+#for exmaple 
+print(3*4)
+print(10%3)
+
+#or you can assign the. number to a varaible 
+my_num=5
+print(my_num)
+
+# to include it in a string 
+print(str(my_num)+"my fav number")
+
+to round
+print(round(3.7))
+
+#to get other special functions 
+from math import *
+my_num= -5
+print(floor(3.7)) # returns 3
+print(ceil(3.4))# returns 4
