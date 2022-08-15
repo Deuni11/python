@@ -1,0 +1,3 @@
+name = input("Enter your name: ") # the input fuction takes an input from the user.
+# here we have assigned a variable called name to the input the user will enter  
+print("hello " + name + " you're cute")
