@@ -1,0 +1,4 @@
+num1 = input("enter number: ")
+num2 = input("enter number: ")
+result = float(num1) + float(num2) # float is used here to tell python what the data type it is otherwise it will think it's a string 
+print(result)
