@@ -1,0 +1,35 @@
+def say_hi(): # custom fuctions should start with def and should be lower case
+    print("hey gorl") # whatvever is inside the fuction needs to be indented under that fuction accordingly 
+
+print("TOP") # it will first print this
+say_hi() # this is how you call the fuction you created above, so secondly it will do the fuction
+print("bottpm") # third, it will print out bottom
+
+
+
+# # adding parameters 
+def sayhi(name, age): # the parameters introduced here are name and age 
+    print("hey gorl"+ name +", you are" + age)
+
+print("TOP")
+sayhi("mike", " 35") # so now , you gotta enter a name and age 
+sayhi("Dee", " 70")
+print("bottpm")
+
+
+
+
+# # using the return statemnt 
+def cube(num):
+    return num*num*num # if you dont add this return satement before you fuction it wont print out the value 
+
+print(cube(3)) #you also have to use print when when you call it 
+
+# #
+def cube(num):
+    return num*num*num
+    print("blah blah") # this bit of code WILL NOT RUN. as the program ends after return
+
+
+result = cube(4) # now it will print out result 
+print(result)
