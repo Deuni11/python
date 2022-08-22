@@ -1,0 +1,57 @@
+is_male = True # boolean statement
+
+if is_male:
+    print("you are a male")
+else:
+    print("you are female")
+    
+    
+ # # 
+ is_male = True # boolean statement
+is_tall = True
+if is_male or is_tall: # true when 1 or both values true
+    print("you are a male or tall or both")
+else:
+    print("you are female and short")
+    
+    
+# #
+is_male = True # boolean statement
+is_tall = False
+if is_male and is_tall: # true when both values true
+    print("you are a male and tall or both")
+else:
+    print("you are either female or short or both")
+    # for ex, this wil output what is inside print
+    
+# # usiing elif
+is_male = True # boolean statement
+is_tall = False
+if is_male and is_tall: # true when both values true
+    print("you are a male and tall or both")
+elif is_male and not(is_tall): # elif is else if. not() uses the opposite of whats inside
+    print("you are a short male")
+elif not(is_male)and is_tall:
+    print("you atr a tall female")
+
+else:
+    print("you are both female and short")
+ #here it's going to print out you are a short male 
+ 
+ 
+ # # using comparisons.fuction to compare numbers 
+ def max_num(num1, num2, num3):
+    if num1>= num2 and num1>= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+print(max_num(3,40,5))
+ 
+ 
+ 
+ 
+ 
+ 
+ 
