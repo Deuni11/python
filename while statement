@@ -1,0 +1,9 @@
+
+
+# printing nummbers from 1-10 and when it exceeds 10 print done with loop 
+i = 1
+while i<= 10:
+    print(i)
+    i=i+1
+
+print("done with loop") # all of this needs to be indented to be inside the loop otherwise it wont work right 
